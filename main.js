@@ -2,12 +2,25 @@ import exponent from 'exponent';
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Text, View } from 'react-native';
 
-class ToDo extends Component {
+//Imported TaskList Component to render
+import TaskList from './TaskList';
 
+class ToDo extends Component {
+  constructor(props, context) {
+      super(props, context);
+
+      this.state = {
+          todos: [
+              {
+                  task: 'Learn React Native'
+              }
+          ]
+      };
+  }
   render() {
       return (
           <View style={styles.container}>
-            <Text>ToDo App</Text>
+            <TaskList/>
           </View>
       );
   }
