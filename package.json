@@ -1,0 +1,16 @@
+{
+  "name": "todo-reactnative-exponent",
+  "version": "0.0.1",
+  "description": "ToDo with Exponent!",
+  "author": "Gani Padela",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "exponent": "^9.0.2",
+    "lodash": "^4.13.1",
+    "react": "15.2.1",
+    "react-native": "github:exponentjs/react-native#sdk-9.0.0"
+  }
+}
